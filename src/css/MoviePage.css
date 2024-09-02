@@ -1,0 +1,115 @@
+.moviePage {
+    font-family: Georgia, serif;
+    color: #ffffff;
+    padding: 1rem;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.moviePageContent {
+    display: flex;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.moviePagePoster {
+    flex-shrink: 0;
+}
+
+.moviePagePoster img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.moviePageDetails {
+    flex-grow: 1;
+}
+
+.moviePageNavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem 2rem;
+    overflow: hidden;
+    background-color: rgba(35, 35, 35, 0.42);
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moviePageNavBar li {
+    color: #ff3d3d;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.moviePageNavBar li.left {
+    margin-right: auto;
+}
+
+.moviePageNavBar li.right {
+    margin-left: 1rem;
+}
+
+.moviePageNavBar li a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.moviePageNavBar li a:hover {
+    background-color: rgba(17, 17, 17, 0.8);
+}
+
+.moviePageTitle {
+    font-size: 3rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.moviePageRating {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.moviePageRating textarea {
+    width: 100%;
+    height: 4.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #121515;
+    color: #ff3d3d;
+    font-size: 0.8rem;
+    resize: none;
+}
+
+@media (max-width: 600px) {
+    .moviePageNavBar li {
+        font-size: 0.5rem;
+    }
+
+    .moviePagePoster img {
+        width: 90%;
+        height: auto;
+        border-radius: 0.5rem;
+    }
+
+    .moviePageContent {
+        flex-direction: column;
+    }
+
+    .moviePageRating {
+        font-size: 1rem;
+        text-align: center;
+    }
+}

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../react-web-prototype.iml" filepath="$PROJECT_DIR$/../react-web-prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../react-movie-web-app.iml" filepath="$PROJECT_DIR$/../react-movie-web-app.iml" />
     </modules>
   </component>
 </project>

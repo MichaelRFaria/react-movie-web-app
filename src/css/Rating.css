@@ -1,0 +1,18 @@
+.ratingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratingStar {
+    font-size: 3rem;
+    padding: 0.2rem;
+
+    cursor: pointer;
+    transition: transform 0.2s ease
+}
+
+.ratingStar:hover {
+    transform: scale(1.1,1.1);
+}
+

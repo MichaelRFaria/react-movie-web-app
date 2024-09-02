@@ -1,0 +1,24 @@
+.notification {
+    position: fixed;
+    top: 2rem;
+    right: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.notification.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+    .notification {
+        right: 4rem;
+        transform: translateY(-40px);
+    }
+}
