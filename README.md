@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React Home](https://github.com/facebo
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs required package dependenceies
+
 ### `npm start`
 
 Runs the app in the development mode.\
